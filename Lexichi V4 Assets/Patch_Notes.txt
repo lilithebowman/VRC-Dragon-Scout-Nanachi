@@ -1,0 +1,17 @@
+V4.0.1 
+Fixed shader issues on blush, whiskers flop :3
+
+V4.0.2
+Added community assets folder to allow other creators a place to share their assets to be used specifically with V4
+
+V4.0.3
+Added a zip file for the coloured textures specifically due to the normal ones being uncompressed (they can be found in the textures folder)
+
+V4.0.4
+Fixed blush and hand gestures (your encouraged to swap out the ones you want)
+
+V4.0.5
+Added UV layouts for easier understanding of how to texture the models
+
+V4.0.6
+Fixed finger issues on the "Rantis" override.

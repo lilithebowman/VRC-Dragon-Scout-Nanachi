@@ -1,0 +1,6 @@
+WARNING!
+
+Going to HAVE to MERGE the TORSE, CROTCH, and LEGS
+Once merged, make sure you go into EDIT MODE, hit A to select ALL vertices, hit the space bar and do REMOVE DOUBLES
+
+Bad clipping WILL happen if this is not done because the weight painting is not uniform accross these meshes

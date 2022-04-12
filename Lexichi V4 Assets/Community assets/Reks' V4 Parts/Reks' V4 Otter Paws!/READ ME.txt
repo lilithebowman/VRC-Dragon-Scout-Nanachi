@@ -1,0 +1,12 @@
+Reksichi's_V4_OtterWebbedFingers - this one all you should have to do is copy and paste the mesh into the project with your nanachi in it, then on the armature side drag the mesh onto your nanachi's amature and click "armature deform" 
+
+DO NOT CLICK ANYTHING ELSE YOU WILL REMOVE THE WEIGHT PAINTING
+
+Reksichi's_V4_OtterWebbedFingers_POMPFER ARMS FIX - This requires more blender skill with this, but in lamense terms you need to combine the armatures(you need to CLEAR the finger mesh as a child of the armature first), OFFSET PARENT the top bones of each fingers to the wrists, and then do the same thing mentioned above!
+
+If you need help with this just DM @ Reks#1337
+
+Have Fun!
+
+
+
