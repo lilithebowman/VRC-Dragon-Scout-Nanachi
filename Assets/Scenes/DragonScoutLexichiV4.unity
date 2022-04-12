@@ -367,20 +367,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566908098, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5578878338566908246, guid: b3b8f47bec445ac4ba580b5772808bfb,
         type: 3}
       propertyPath: m_Name
       value: DragonScoutLexichiV4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578878338566942637, guid: b3b8f47bec445ac4ba580b5772808bfb,
-        type: 3}
-      propertyPath: customExpressions
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578878338572117010, guid: b3b8f47bec445ac4ba580b5772808bfb,
-        type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[30]
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3b8f47bec445ac4ba580b5772808bfb, type: 3}
