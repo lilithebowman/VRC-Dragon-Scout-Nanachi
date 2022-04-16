@@ -305,6 +305,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.21, y: 180, z: 0}
+--- !u!1 &919132148184980272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2695360420245989135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &919132148184980273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148184980272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1001 &2695360420245989135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -367,10 +386,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_Name
       value: DragonScoutLexiChiV4fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460f819346ccf024f801928f943711f1, type: 2}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a56e7f5d138b54188f003b771c5452, type: 2}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8dfe27246deef9c4d823715a07a932ac, type: 2}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6eb438339b0f2844a1ba79fb7f86b48, type: 2}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 87fe3b1c3796f1e4b9eafe4d824273ef, type: 2}
+    - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[30]
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 499830f2b7b86e5458aa5b9b7d85b13e, type: 3}
