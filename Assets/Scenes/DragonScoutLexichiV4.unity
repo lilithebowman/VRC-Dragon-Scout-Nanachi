@@ -455,25 +455,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1312302689}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1312302691 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1312302689}
+--- !u!114 &1312302691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1312302692 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1312302689}
-  m_PrefabAsset: {fileID: 0}
---- !u!137 &1312302693 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: de7f43560215f324b992dfa62122245e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1312302689}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1312302694
+  m_GameObject: {fileID: 1312302690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchedFromSDKPipeline: 0
+  completedSDKPipeline: 0
+  blueprintId: avtr_1a76fd6b-5edf-4e4a-8eb2-658ef21d7b14
+  contentType: 0
+  assetBundleUnityVersion: 
+  fallbackStatus: 1
+--- !u!114 &1312302692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -522,8 +522,8 @@ MonoBehaviour:
     eyeMovement:
       confidence: 0.5
       excitement: 0.5
-    leftEye: {fileID: 1312302692}
-    rightEye: {fileID: 1312302691}
+    leftEye: {fileID: 1312302695}
+    rightEye: {fileID: 1312302694}
     eyesLookingStraight:
       linked: 1
       left: {x: 0, y: 0, z: 0, w: 1}
@@ -585,8 +585,8 @@ MonoBehaviour:
         linked: 1
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsSkinnedMesh: {fileID: 0}
-    eyelidsBlendshapes: ffffffffffffffffffffffff
+    eyelidsSkinnedMesh: {fileID: 1312302693}
+    eyelidsBlendshapes: 1e000000ffffffffffffffff
   customizeAnimationLayers: 0
   baseAnimationLayers:
   - isEnabled: 0
@@ -634,24 +634,24 @@ MonoBehaviour:
   animationHashSet: []
   autoFootsteps: 1
   autoLocomotion: 1
---- !u!114 &1312302695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!137 &1312302693 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: de7f43560215f324b992dfa62122245e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1312302689}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312302690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launchedFromSDKPipeline: 0
-  completedSDKPipeline: 0
-  blueprintId: avtr_6a2bf549-fa27-417d-a5dc-50b703478a67
-  contentType: 0
-  assetBundleUnityVersion: 
-  fallbackStatus: 1
+--- !u!4 &1312302694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1312302689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1312302695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1312302689}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1312302696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7864876674198193685, guid: de7f43560215f324b992dfa62122245e,
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_DistantDisable: 0
   m_ReferenceObject: {fileID: 0}
   m_DistanceToObject: 20
---- !u!114 &1312302706
+--- !u!114 &1312302702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
