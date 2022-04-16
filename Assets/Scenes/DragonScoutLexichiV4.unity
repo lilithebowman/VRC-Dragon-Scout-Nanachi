@@ -377,5 +377,95 @@ PrefabInstance:
       propertyPath: m_Name
       value: DragonScoutLexichiV4
       objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942624, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942625, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942626, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942627, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942628, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942629, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942630, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942631, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942632, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942633, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942634, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942635, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942639, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942680, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942681, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942682, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942684, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578878338566942686, guid: b3b8f47bec445ac4ba580b5772808bfb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3b8f47bec445ac4ba580b5772808bfb, type: 3}
