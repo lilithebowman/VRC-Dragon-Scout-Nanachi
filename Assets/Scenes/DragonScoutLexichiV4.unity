@@ -370,42 +370,42 @@ PrefabInstance:
     - target: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999989
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0014559603
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000028276925
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3551960246506442466, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000020658654
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999989
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0014559387
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000028276923
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1951410641895098583, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000020658656
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de7f43560215f324b992dfa62122245e,
         type: 3}
@@ -459,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!137 &1312302693 stripped
 SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6868716418057165105, guid: de7f43560215f324b992dfa62122245e,
+  m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: de7f43560215f324b992dfa62122245e,
     type: 3}
   m_PrefabInstance: {fileID: 1312302689}
   m_PrefabAsset: {fileID: 0}
@@ -575,7 +575,7 @@ MonoBehaviour:
         linked: 1
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsSkinnedMesh: {fileID: 1312302693}
+    eyelidsSkinnedMesh: {fileID: 0}
     eyelidsBlendshapes: ffffffffffffffffffffffff
   customizeAnimationLayers: 0
   baseAnimationLayers:
