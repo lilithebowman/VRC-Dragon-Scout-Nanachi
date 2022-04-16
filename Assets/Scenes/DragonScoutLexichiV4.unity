@@ -305,6 +305,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.21, y: 180, z: 0}
+--- !u!1 &827075973446492317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3322958552982685586, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2695360420245989135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &827075973446492318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827075973446492317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baedd976e12657241bf7ff2d1c685342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Center: {x: 0, y: 0.0007, z: -0.0006}
+  m_Radius: 0.0015
+  m_Height: 0.001
+  m_Direction: 0
+  m_Bound: 0
 --- !u!1 &919132148184980272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
@@ -386,6 +409,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702882, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702882, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 827075973446492318}
+    - target: {fileID: 2695360421351702882, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[1]
+      value: 
+      objectReference: {fileID: 6444272883007098915}
+    - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_8e304cff-24ef-47f5-9602-c4cb5269b11f
+      objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: fallbackStatus
@@ -433,3 +476,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 499830f2b7b86e5458aa5b9b7d85b13e, type: 3}
+--- !u!1 &6444272883007098914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8937798144100071213, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2695360420245989135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6444272883007098915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6444272883007098914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baedd976e12657241bf7ff2d1c685342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Center: {x: 0, y: 0.0005, z: 0}
+  m_Radius: 0.0007
+  m_Height: 0.0005
+  m_Direction: 0
+  m_Bound: 0
