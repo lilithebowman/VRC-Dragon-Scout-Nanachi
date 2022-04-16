@@ -305,25 +305,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.21, y: 180, z: 0}
---- !u!1 &1319174084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2695360420245989135}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1319174085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319174084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!1001 &1834142825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,7 +411,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a2493bd9194d994cb5cdd927b0adf7f, type: 2}
+      objectReference: {fileID: 2100000, guid: e82f56d5746796e409a2e72b2cddbc8e, type: 2}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -840,7 +821,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: 87fe3b1c3796f1e4b9eafe4d824273ef, type: 2}
+      objectReference: {fileID: 2100000, guid: bb9f371e5bffa4148a5c6a5650f23610, type: 2}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[30]
