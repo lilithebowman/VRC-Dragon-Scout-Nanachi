@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
@@ -775,7 +775,7 @@ PrefabInstance:
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_8e304cff-24ef-47f5-9602-c4cb5269b11f
+      value: avtr_e56c5aba-3ed5-4998-a7f5-84356c0e6cd9
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
@@ -790,18 +790,18 @@ PrefabInstance:
     - target: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_Materials.Array.size
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 460f819346ccf024f801928f943711f1, type: 2}
+      objectReference: {fileID: 2100000, guid: bb9f371e5bffa4148a5c6a5650f23610, type: 2}
     - target: {fileID: 3730783032977005628, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
