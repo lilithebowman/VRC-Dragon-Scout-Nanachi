@@ -404,7 +404,7 @@ PrefabInstance:
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_e56c5aba-3ed5-4998-a7f5-84356c0e6cd9
+      value: avtr_2561e2dc-ba8a-4702-817b-3869ea28f616
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
@@ -714,8 +714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baedd976e12657241bf7ff2d1c685342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Center: {x: 0, y: 0.0007, z: -0.0006}
-  m_Radius: 0.0015
+  m_Center: {x: 0, y: 0.0007, z: 0}
+  m_Radius: 0.0011
   m_Height: 0.001
   m_Direction: 0
   m_Bound: 0
@@ -783,6 +783,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702882, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702882, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
       propertyPath: m_Colliders.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -796,15 +801,25 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[1]
       value: 
       objectReference: {fileID: 6444272883007098915}
+    - target: {fileID: 2695360421351702883, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_e56c5aba-3ed5-4998-a7f5-84356c0e6cd9
+      value: avtr_2561e2dc-ba8a-4702-817b-3869ea28f616
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: fallbackStatus
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421636731376, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
