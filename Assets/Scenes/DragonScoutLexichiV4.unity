@@ -305,25 +305,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.21, y: 180, z: 0}
---- !u!1 &1319174084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3001281726524554303, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2695360420245989135}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1319174085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319174084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!1001 &1834142825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -404,7 +385,7 @@ PrefabInstance:
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_2561e2dc-ba8a-4702-817b-3869ea28f616
+      value: avtr_e56c5aba-3ed5-4998-a7f5-84356c0e6cd9
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
@@ -806,15 +787,140 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: customizeAnimationLayers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].hash
+      value: 1127303507
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].name
+      value: Prone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].hash
+      value: 1277114970
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].name
+      value: Crouching
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].hash
+      value: -946967196
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].name
+      value: Supine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].hash
+      value: -1598418286
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].name
+      value: Short Fall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].hash
+      value: -1937525046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].name
+      value: Landed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].hash
+      value: 2085715311
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].name
+      value: LongFall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].hash
+      value: -1363609842
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].name
+      value: RestoreTracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].hash
+      value: 267186620
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].name
+      value: SmallHop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].hash
+      value: 224256026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].name
+      value: RestoreToHop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].hash
+      value: -912049241
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].name
+      value: SantaLil_Standing-Blendtree
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: baseAnimationLayers.Array.data[0].isDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702891, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: baseAnimationLayers.Array.data[0].animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 36d4f8e07e5c9bd41936b7d9c88288bc, type: 2}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_2561e2dc-ba8a-4702-817b-3869ea28f616
+      value: avtr_e56c5aba-3ed5-4998-a7f5-84356c0e6cd9
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
       propertyPath: fallbackStatus
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695360421351702892, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: completedSDKPipeline
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2695360421636731376, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
         type: 3}
@@ -865,6 +971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[30]
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362425485091699967, guid: 499830f2b7b86e5458aa5b9b7d85b13e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 499830f2b7b86e5458aa5b9b7d85b13e, type: 3}
